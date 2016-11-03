@@ -10,7 +10,7 @@ public class Main {
 		double b = 0;
 		double c = 0;
 		double d = 0;
-		System.out.println("Введите коэффициенты a,b,c, если ax^2 + bx + c = 0");
+		System.out.println("Into a,b,c, if ax^2 + bx + c = 0");
 		Scanner in = new Scanner(System.in);
 		a = in.nextDouble();
 		b = in.nextDouble();
@@ -28,7 +28,7 @@ public class Main {
 			x = -b / (2*a);
 			System.out.println("x = " +x);
 		}else{
-			System.out.println("Уравнение не имеет решений");
+			System.out.println("no solution");
 		}
 		
 	}
@@ -37,24 +37,24 @@ public class Main {
 		double height = 0;
 		double s = 0;
 		double p = 0;
-		System.out.println("Введите длину и высоту прямоугольника");
+		System.out.println("Into length and height rectangle");
 		Scanner in = new Scanner(System.in);
 		length = in.nextDouble();
 		height = in.nextDouble();
 		in.close();
 		p = 2*(length + height);
 		s = length * height;
-		System.out.println("Периметр данного прямоугольника =" +p+ ", а пролощадь =" +s);	
+		System.out.println("perimeter of a rectangle =" +p+ ", and square =" +s);	
 	}
 	private static void task3(){
 		double p = 0;
-		System.out.println("Введите периметр квадрата");
+		System.out.println("Into perimeter square");
 		Scanner in = new Scanner (System.in);
 		p = in.nextDouble();
 		in.close();
 		double side = 0;
 		side = p / 4;
-		System.out.println("Сторона квадрата =" +side);
+		System.out.println("Side square =" +side);
 	}
 	private static void task4(){
 		double ans = 0;
@@ -65,7 +65,7 @@ public class Main {
 		double x = 1.8;
 		double y = 3.4;
 		int i = 0;
-		System.out.println("По какому уравнению мы будем находить переменную ans?(1, 2, 3, 4, 5???)");
+		System.out.println("Select the equation for ans?(1, 2, 3, 4, 5???)");
 		Scanner in = new Scanner(System.in);
 		i = in.nextInt();
 		in.close();
