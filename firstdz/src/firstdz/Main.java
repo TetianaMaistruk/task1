@@ -15,6 +15,7 @@ public class Main {
 		a = in.nextDouble();
 		b = in.nextDouble();
 		c = in.nextDouble();
+		in.close();
 		d = b*b - 4*a*c;
 		
 		if (d > 0) {
@@ -40,6 +41,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		length = in.nextDouble();
 		height = in.nextDouble();
+		in.close();
 		p = 2*(length + height);
 		s = length * height;
 		System.out.println("Периметр данного прямоугольника =" +p+ ", а пролощадь =" +s);	
@@ -49,6 +51,7 @@ public class Main {
 		System.out.println("Введите периметр квадрата");
 		Scanner in = new Scanner (System.in);
 		p = in.nextDouble();
+		in.close();
 		double side = 0;
 		side = p / 4;
 		System.out.println("Сторона квадрата =" +side);
@@ -65,6 +68,7 @@ public class Main {
 		System.out.println("По какому уравнению мы будем находить переменную ans?(1, 2, 3, 4, 5???)");
 		Scanner in = new Scanner(System.in);
 		i = in.nextInt();
+		in.close();
 		switch (i) {
 		case 1: ans = ((b+Math.sqrt(b*b + 4*a*c))/2*a) - (Math.pow(a, 3.0)*c +Math.pow(b, -2.0));
 			break;
